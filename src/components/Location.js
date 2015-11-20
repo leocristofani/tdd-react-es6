@@ -7,4 +7,6 @@ export default class Location extends React.Component {
 }
 
 Location.displayName = 'Location';
-Location.propTypes = React.PropTypes.object.isRequired;
+Location.propTypes = {
+	React.PropTypes.object.isRequired
+};
